@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+    
+        .container{
+            border: solid;
+            color: black;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .flex-pink{
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: none;
+            background-color: pink;
+        }
+
+        .flex-blue{
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: none;
+            background-color: lightblue;
+        }
+        
+        .container-2{
+            border: solid;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        
+        .flex-pink-2{
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: none;
+            background-color: pink;
+        }
+
+        .flex-blue-2{
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: none;
+            background-color: lightblue;
+        }
+        
+        .container-3{
+            border: solid;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            height: 100px;
+            align-items: center;
+        }
+        
+        .flex-pink-3{
+            width: 100px;
+            display: flex;
+            background-color: pink;
+        }
+
+        .flex-blue-3{
+            
+            width: 100px;
+            display: flex;
+            background-color: lightblue;
+        }
+
+        </style>
+        
+    </body>
+    </html>
+</head>
+<body>
+    <section class="container">
+        <div class="flex-blue"> 100px</div>
+        <div class="flex-pink"> 100px</div>
+        <div class="flex-blue"> 100px</div>
+    </section>
+
+    <section class="container-2">
+        <div class="flex-blue-2">100px</div>
+        <div class="flex-pink-2">100px</div>
+        <div class="flex-blue-2">10opx</div>
+    </section>
+
+    <section class="container-3">
+        <div class="flex-blue-3">100px</div>
+        <div class="flex-pink-3">100px</div>
+        <div class="flex-blue-3">100px</div>
+    </section>
